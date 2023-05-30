@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev" : "nodemon index.js",
-    "build" : "npm run transpile && npm run bundle",
+    "build" : "npm install",
+    "transpile": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rahul Singh",
