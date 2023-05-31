@@ -4,8 +4,8 @@
   "description": "simple application to login and signup user",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon index.js",
-    "build" : "npm install",
+    "dev": "nodemon index.js",
+    "build": "npm install",
     "transpile": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.1.1",
     "express": "^4.18.2",
     "express-validator": "^7.0.1",
     "mongoose": "^7.2.1",
